@@ -332,7 +332,7 @@ class _HomeScreen extends State<HomeScreen> {
           colorful: true,
           batteryFromPhone: false,
           showPercentNum: true,
-          batteryLevel: _pin == null || _pin.isEmpty ? 0 : int.parse(_pin),
+          batteryLevel: 85,
           mainColor: Colors.blue,
           size: 18,
           percentNumSize: 12.sp,

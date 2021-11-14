@@ -66,7 +66,6 @@ class BluetoothService implements Bluetooth {
   @override
   Future<void> disconnect() async {
     await bluetoothConnection.close();
-
   }
 
   @override
